@@ -6,5 +6,5 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 public interface ICSharpMethodArgumentData
 {
     /// <summary>The syntactic data about the C# method argument.</summary>
-    public abstract ArgumentSyntax Argument { get; }
+    public abstract ArgumentSyntax SyntacticArgument { get; }
 }
